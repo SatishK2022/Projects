@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #000000;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../asset/background.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header .logo img{
+    width: 100px;
+}
+
+header{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+nav ul{
+    display: flex;
+
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ffc233;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+nav ul li a:hover{
+    color: #ebbc4f;
+}
+
+header .btn{
+    padding: 10px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    background-color: #ff515f;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+header .btn:hover{
+    background-color: #f0515e;
+}
+
+/* Hero Section */
+
+.hero-section{
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-section h1{
+    font-size: 70px;
+    width: 70%;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    color: #ffc233;
+    line-height: 80px;
+}
+
+.hero-section .btn{
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    background-color: #ff515f;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.hero-section .btn:hover{
+    background-color: #f0515e;
+}
+
+.container .scroll{
+    width: 100px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}

@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    width: 100vw;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5%;
+}
+
+nav .logo{
+    width: 100px;
+    margin-right: 50px;
+}
+
+header nav ul{
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li{
+    list-style: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    margin-right: 30px;
+    font-weight: 600;
+    color: #3c2e60;
+}
+
+header nav ul li a:hover{
+    color: #5955b3;
+}
+
+.btn{
+    background-color: #5955b3;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #534fa0;
+}
+
+
+/* Hero Section */
+.hero-section{
+    padding: 50px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 50px; */
+}
+
+/* Left Section */
+.hero-section .left-main{
+    width: 50%;
+}
+
+.left-main .hero-title h1{
+    font-size: 50px;
+    font-weight: 600;
+    word-spacing: 2px;
+    color: #3c2e60;
+    line-height: 60px;
+}
+
+.left-main .hero-text p{
+    color: #414141;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+
+
+span{
+    color: #5955b3;
+}
+
+/* Right Section */
+.hero-section .righh-main{
+    width: 50%;
+}
+
+
+
+.right-main img{
+    width: 500px;
+}

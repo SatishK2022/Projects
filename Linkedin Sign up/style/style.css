@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    /* overflow: hidden; */
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    max-width: 1200px;
+    margin: 0px auto;
+    overflow-x: hidden;
+}
+
+header{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 80px 5px 50px;
+}
+
+header .nav-links{
+    display: flex;
+    align-items: center;
+}
+
+header nav ul{
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:  10px 16px;
+}
+
+header nav ul li a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    text-decoration: none;
+    color: #8b8b8b;
+    font-size: 14px;
+    margin: 0px auto;
+    font-weight: normal;
+}
+
+header nav ul li a:hover{
+    color: #1e1e1e;
+}
+
+header nav ul li a img{
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.line{
+    width: 1px;
+    background-color: #a8a8a8;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.btn{
+    padding: 14px 25px;
+    font-size: 16px;
+    color: #000000;
+    border-radius: 40px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    height: 50px;
+}
+
+.btn:hover{
+    background-color: #f5f5f5;
+}
+
+.sign-in{
+    border: 1.5px solid #0c61b5;
+    color: #0c61b5;
+    margin-left: 10px;
+}
+
+.sign-in:hover{
+    color: #0e5c89;
+}
+
+.hero-section{
+    display: flex;
+    padding: 16px 50px;
+    margin-top: 40px;
+    /* overflow: hidden; */
+}
+
+.hero-section .hero-left{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-left h1{
+    font-size: 50px;
+    font-weight: 200;
+    width: 100%;
+    line-height: 60px;
+    margin-bottom: 30px;
+    color: #8F5849;
+}
+
+.hero-left input{
+    height: 50px;
+    padding: 15px 10px;
+    width: 400px;
+    margin-bottom: 10px;
+    border: 1px solid #666666;
+    border-radius: 2px;
+    font-size: 16px;
+}
+
+.hero-left input:focus{
+    border: 2px solid #24589cbb;
+}
+
+.hero-left button{
+    width: 400px;
+}
+
+.hero-left a{
+    text-decoration: none;
+    color: #383838;
+    margin-top: 8px;
+    font-size: 15px;
+}
+
+.hero-left .forgot-text{
+    width: 140px;
+}
+
+.hero-left .forgot-text:hover{
+    color: #0968c8;
+    text-decoration: underline;
+}
+
+.hero-left .btn{
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.hero-left .signin-btn{
+    background-color: #106ecb;
+    color: #ffffff;
+    padding: 16px 25px;
+    transition: .1s all ease;
+    margin-bottom: 10px;
+}
+
+.hero-left .signin-btn:hover{
+    background-color: #1a5c9e;
+}
+
+.hero-left .or-section{
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.hero-left .or-section span{
+    margin: 15px;
+    font-size: 14px;
+    color: #868686;
+}
+
+.hero-left .or-section div{
+    height: 0.5px;
+    width: 160px;
+    background-color: #666666;
+}
+
+.google{
+    width: 400px;
+    height: 55px;
+    padding: 16px 25px;
+    color: #666666;
+    border: 1.5px solid #666666;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.google:hover{
+    background-color: #f5f5f5;
+    border: 2px solid #000000;
+}
+
+.hero-left .join-now-btn{
+    padding: 16px 25px;
+    color: #1a1a1a;
+    border: 1.5px solid #000000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.hero-right{
+    width: 40%;
+}
+
+.hero-right img{
+    width: 700px;
+}
+
+
+/* Media Queries */
+@media  screen and (max-width:768px) {
+    header{
+        padding: 5px 20px;
+    }
+    
+    header nav, .line{
+        display: none;
+    }
+
+    .logo a img{
+        width: 100px;
+    }
+
+    .hero-section{
+        flex-direction: column;
+        padding: 0px 20px;
+        margin-top: 20px;
+    }
+
+    .hero-section .hero-left{
+        width: 100%;
+    }
+
+    .hero-left h1{
+        width: 100%;
+        font-size: 30px;
+        font-weight: 200;
+        margin-bottom: 20px;
+        line-height: 40px;
+    }
+
+    .hero-left input{
+        width: 100%;
+    }
+
+    .hero-left .btn{
+        width: 100%;
+    }
+
+    .google{
+        width: 100%;
+    }
+
+    .hero-left .or-section div{
+        width: 350px;
+    }
+
+    .hero-right{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero-right img{
+        width: 350px;
+        margin: 20px auto;
+    }
+}
+
+@media screen and (max-width:992px) {    
+    header nav, .line{
+        display: none;
+    }
+}

@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #666666;
+}
+
+.img1{
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0,0,0,0.2)), url("./asset/bg1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.img1 .text-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img1 .text-container .container-text{
+    font-size: 50px;
+    color: #ffffff;
+    background-color: #313131;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.section{
+    height: 400px;
+    padding: 40px 80px;
+    text-align: center;
+}
+
+.section-light{
+    background-color: #e7e7e7;
+
+}
+
+.section h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #1d1d1d;
+}
+
+.section p{
+    text-align: justify;
+}
+
+
+.img2{
+    height: 60vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0,0,0,0.2)), url("./asset/bg3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.img2 .text-container{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img2 .text-container .container-text{
+    font-size: 50px;
+    color: #ffffff;
+    background-color: rgba(68, 68, 68, 0.644);
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.section-dark{
+    background-color: #343434;
+}
+
+.section-dark h1{
+    color: #ffffff;
+}
+
+.section-dark p{
+    color: #e7e7e7;
+}
+
+.img3{
+    height: 60vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0,0,0,0.2)), url("./asset/bg2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.img3 .text-container{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img3 .text-container .container-text{
+    font-size: 50px;
+    color: #ffffff;
+    background-color: rgba(68, 68, 68, 0.486);
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.img4{
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0,0,0,0.2)), url("./asset/bg4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
